@@ -1,9 +1,12 @@
+using Asp.Versioning;
+using Heimdall.WebAPI.Features.WeatherForecasting.v1.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Heimdall.WebAPI.Controllers;
+namespace Heimdall.WebAPI.Features.WeatherForecasting.v1;
 
 [ApiController]
-[Route("[controller]")]
+[ApiVersion("1")]
+[Route("api/v{version:apiVersion}/[controller]")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries =

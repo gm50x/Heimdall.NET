@@ -1,4 +1,4 @@
-namespace Heimdall.WebAPI;
+namespace Heimdall.WebAPI.Features.WeatherForecasting.v1.Models;
 
 public class WeatherForecast
 {
