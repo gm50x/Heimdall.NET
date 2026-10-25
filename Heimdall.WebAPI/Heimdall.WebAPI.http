@@ -1,0 +1,6 @@
+@Heimdall.WebAPI_HostAddress = http://localhost:5286
+
+GET {{Heimdall.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

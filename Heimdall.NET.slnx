@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Heimdall.NET.AppHost/Heimdall.NET.AppHost.csproj" />
+  <Project Path="Heimdall.NET.ServiceDefaults/Heimdall.NET.ServiceDefaults.csproj" />
+  <Project Path="Heimdall.WebAPI/Heimdall.WebAPI.csproj" />
+</Solution>
